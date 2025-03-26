@@ -22,12 +22,6 @@ This project aims to reduce food waste by notifying users of discounts on near-e
 
 ### Prerequisites
 
-- .NET Core 3.1 or later
-- A configured SMTP server or a Sendinblue API key for sending emails
+- .NET Core 3.1
+- A configured SMTP server/Sendinblue API key for sending emails
 - An API key from Salling Group for fetching food waste data
-
-### Installation
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
