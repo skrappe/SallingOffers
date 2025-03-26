@@ -1,0 +1,17 @@
+/Users/mortennielsen/Projects/API/bin/Debug/net7.0/API
+/Users/mortennielsen/Projects/API/bin/Debug/net7.0/API.deps.json
+/Users/mortennielsen/Projects/API/bin/Debug/net7.0/API.runtimeconfig.json
+/Users/mortennielsen/Projects/API/bin/Debug/net7.0/API.dll
+/Users/mortennielsen/Projects/API/bin/Debug/net7.0/API.pdb
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.AssemblyInfoInputs.cache
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.AssemblyInfo.cs
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.csproj.CoreCompileInputs.cache
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.dll
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/refint/API.dll
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.pdb
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.genruntimeconfig.cache
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/ref/API.dll
+/Users/mortennielsen/Projects/API/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.csproj.AssemblyReference.cache
+/Users/mortennielsen/Projects/API/obj/Debug/net7.0/API.csproj.CopyComplete
