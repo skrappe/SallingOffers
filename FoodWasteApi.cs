@@ -4,21 +4,31 @@ using System.Threading.Tasks;
 
 public class FoodWasteApi
 {
-    // Indsæt din Salling Group API-nøgle
-    private static readonly string apiKey = "SG_APIM_16KW7B8XWYEVWRZ2B4TM7RMNSYSG8G01ZS71J8XG2QSBGS2AGRMG";
-    // Eventuelt ændr postnummer
+    // Adjust these as needed (i.e., if you have a dynamic query param for zip):
     private static readonly string zipCode = "2800";
-    private static readonly string apiUrl = $"https://api.sallinggroup.com/v1/food-waste?zip={zipCode}";
+    private static readonly string apiUrl  = $"https://api.sallinggroup.com/v1/food-waste?zip={zipCode}";
 
     public static async Task<string> GetFoodWasteDataAsync()
     {
         using (HttpClient client = new HttpClient())
         {
+            // 1) Retrieve the API key from your SecretsConfig
+            var apiKey = SecretsConfig.SallingGroupApiKey;
+            if (string.IsNullOrWhiteSpace(apiKey))
+            {
+                Console.WriteLine("Error: SALLINGGROUP_APIKEY (or environment var) is not set.");
+                return string.Empty;
+            }
+
+            // 2) Set request headers
+            client.DefaultRequestHeaders.Add("accept", "application/json");
             client.DefaultRequestHeaders.Add("Authorization", $"Bearer {apiKey}");
 
+            // 3) Make the GET request
             HttpResponseMessage response = await client.GetAsync(apiUrl);
             response.EnsureSuccessStatusCode();
 
+            // 4) Return the raw JSON
             return await response.Content.ReadAsStringAsync();
         }
     }
