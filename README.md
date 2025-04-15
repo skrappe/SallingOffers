@@ -1,7 +1,7 @@
 # Food Waste Reduction App
 
 ## About The Project
-This project aims to reduce food waste by notifying users of discounts on near-expiration products at local supermarkets. It pulls data from the Salling Group API, categorizes offers by store and type, identifies top deals, and highlights significant offers. The application then compiles this data into an HTML email and sends it to subscribed users.
+The motivation for this program was to provide offers from local shops, on the things we shop the most at our household. This project aims to reduce food waste by notifying users of offers, and discounts on near-expiration products at local supermarkets. It pulls data from the Salling Group API, categorizes offers by store and type, identifies top deals, and highlights significant offers. The application then compiles this data into an HTML email and sends it to subscribed users.
 
 ## Key Features
 
